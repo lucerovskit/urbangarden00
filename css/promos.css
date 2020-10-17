@@ -1,0 +1,63 @@
+
+  body {
+    font-family: "Filósofo", sans-serif;
+    font-size: 20px;
+    background-color: black;
+  }
+  header {
+    background-image: url("../img/productos/img.variedad7.png");
+    padding: 1em 0;
+    background-size: cover;
+  }
+  header h1 {
+    color: black;
+    font-family: "Lobster";
+    text-decoration: underline;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  header img {
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+  }
+  .combo{
+border: 2px dashed white;
+padding-top: 10px;
+  }
+  .combo h2{
+    text-align: center;
+  color:#275E3B;
+  background-color: azure;
+  font-family:'Lobster';
+  font-size:50px;
+  padding-top: 10px;
+  }
+  .combo h3{
+    background-color: #275e3b;
+    color: azure;
+    text-align: center;
+  }
+  footer{
+    background-color: black;
+  }
+  footer h2{
+      text-align: center;
+      color:#275E3B;
+      font-family:'Lobster';
+      font-size:50px;
+      padding-top: 10px;
+  }
+ .contacto {
+    font-size: 25px;
+    text-align:left;
+    color:#1F7F6B;
+  
+  } .contacto ul li{ 
+    padding-left: 20px;
+    padding-top: 5px; 
+  list-style-type: square;
+  } 

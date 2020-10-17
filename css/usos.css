@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?fqr82p');
+  src:  url('fonts/icomoon.eot?fqr82p#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fqr82p') format('truetype'),
+    url('fonts/icomoon.woff?fqr82p') format('woff'),
+    url('fonts/icomoon.svg?fqr82p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+body{
+  font-family:'Filósofo', sans-serif;
+  font-size: 20px;
+}
+header {
+    background-image: url("../img/productos/img.variedad7.png");
+    padding: 1em 0;
+    background-size: cover;
+  }
+  header h1 {
+    color: black;
+    font-family: "Lobster";
+    text-decoration: underline;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  header img {
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+  }
+.caja{
+  border:1px solid gray;
+  border-radius:0.7em;
+  margin:1em;
+  padding:1em;
+  overflow: hidden;
+}
+.caja .info{
+  width:75%;
+}
+.caja .info h3{
+  background-color: #275e3b;
+  color: azure;
+}
+.caja .info p{
+  font-size:0.8em;
+  line-height: 1.2em;
+}
+.caja .info ul li{
+  font-size:0.8em;
+  line-height: 1.2em;
+}
+.caja figure img{
+  border-radius:0.8em;
+  width: 150px;
+}
+.caja:nth-child(odd) figure{
+  float:left;
+  margin:0 1em 0 0;
+}
+.caja:nth-child(odd) .info{
+  float:right;
+}
+.caja:nth-child(even) figure{
+  float: right;
+  margin: 0 0 0 1em;
+}
+.caja:nth-child(even) .info{
+  float:left;
+}
+
